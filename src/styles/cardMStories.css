@@ -1,0 +1,7 @@
+.sideCard{
+    @apply my-8 border-2;
+}
+
+.sideCardText{
+    @apply p-3;
+}

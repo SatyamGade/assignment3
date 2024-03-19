@@ -1,0 +1,23 @@
+.sidebar{
+    @apply bg-sky-800 text-white h-screen fixed right-full ; 
+}
+
+.sidebarProfile{
+    @apply flex items-center px-3.5 border-b-2;
+}
+
+.sidebarLinks{
+    @apply pr-1.5 pl-3 pt-2;
+}
+
+.link{
+    @apply text-lg py-1.5;
+}
+
+.sidebarArrow{
+    @apply absolute inset-y-1/2 start-full px-1 h-14 bg-sky-800 border-l-2 border-sky-700	;
+}
+
+.active{
+    @apply w-64 fixed start-0 ;
+}
